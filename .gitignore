@@ -1,0 +1,11 @@
+# Ignore model weights and large history files
+model/*.h5
+model/*.pkl
+model/*.json
+
+# Ignore large datasets
+twitter_data/
+detected_accidents/
+
+# Ignore Python cache
+__pycache__/
